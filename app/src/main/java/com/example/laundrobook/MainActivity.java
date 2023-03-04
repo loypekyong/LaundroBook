@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Date d = new Date(System.currentTimeMillis());
-        Timestamp timestamp = new Timestamp(d);
-        mNodeRef.setValue(timestamp.toString());
+//        Timestamp timestamp = new Timestamp(d);
+        mNodeRef.setValue(d.toString());
 
         // end firebase test
 
