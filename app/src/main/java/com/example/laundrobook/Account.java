@@ -1,10 +1,9 @@
 package com.example.laundrobook;
 
 public class Account {
-
-    private String username;
-    private Integer roomId;
-    private String passwordHash;
+    private String username;    // username
+    private Integer roomId;     // room id
+    private String passwordHash;    // password
     private Boolean bookedWashingMachine;
     private Boolean bookedDryer;
 

@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         //firebase test
         textViewMsg = findViewById(R.id.textViewMsg);
-        mRootDatabaseRef = FirebaseDatabase.getInstance().getReference();
-        mNodeRef = mRootDatabaseRef.child(node);
+        mRootDatabaseRef = FirebaseDatabase.getInstance().getReference(); // root node
+        mNodeRef = mRootDatabaseRef.child(node); // value of node key
 
         mNodeRef.addValueEventListener(new ValueEventListener() {
 

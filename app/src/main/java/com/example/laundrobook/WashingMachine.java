@@ -1,4 +1,8 @@
 package com.example.laundrobook;
 
-public class WashingMachine implements Bookable{
+public class WashingMachine{
+
+    private boolean booked;
+
+
 }
