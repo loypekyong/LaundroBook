@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacilitiesPanel"
+    android:rowCount="9"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_columnSpan="4"
+        android:layout_rowSpan="2"
+        android:layout_height="200dp"
+        android:id="@+id/charaImage"
+        android:gravity="center"
+        android:src="@drawable/project_logo"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="40dp"
+        android:text="Washing Machine"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="40dp"
+        android:text="Dryer"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/W1"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W1"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:onClick="gotoTimingPanel"/>
+
+    <Button
+        android:id="@+id/W2"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W2"
+        android:layout_row="5"
+        android:layout_column="0"  />
+
+    <Button
+        android:id="@+id/W3"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W3"
+        android:layout_row="6"
+        android:layout_column="0"  />
+
+    <Button
+        android:id="@+id/W4"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W4"
+        android:layout_row="7"
+        android:layout_column="0"  />
+
+    <Button
+        android:id="@+id/W5"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W5"
+        android:layout_row="4"
+        android:layout_column="1"  />
+
+    <Button
+        android:id="@+id/W6"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W6"
+        android:layout_row="5"
+        android:layout_column="1"  />
+
+    <Button
+        android:id="@+id/W7"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W7"
+        android:layout_row="6"
+        android:layout_column="1"  />
+
+    <Button
+        android:id="@+id/W8"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="W8"
+        android:layout_row="7"
+        android:layout_column="1" />
+
+
+    <Button
+        android:id="@+id/D1"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D1"
+        android:layout_row="4"
+        android:layout_column="2" />
+
+    <Button
+        android:id="@+id/D2"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D2"
+        android:layout_row="5"
+        android:layout_column="2"  />
+
+    <Button
+        android:id="@+id/D3"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D3"
+        android:layout_row="6"
+        android:layout_column="2"  />
+
+    <Button
+        android:id="@+id/D4"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D4"
+        android:layout_row="4"
+        android:layout_column="3"   />
+
+    <Button
+        android:id="@+id/D5"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D5"
+        android:layout_row="5"
+        android:layout_column="3" />
+
+    <Button
+        android:id="@+id/D6"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="1"
+        android:layout_height="wrap_content"
+        android:text="D6"
+        android:layout_row="6"
+        android:layout_column="3"   />
+
+</GridLayout>

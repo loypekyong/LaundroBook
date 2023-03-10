@@ -12,6 +12,15 @@
         android:theme="@style/Theme.LaundroBook"
         tools:targetApi="31">
         <activity
+            android:name=".TimingPanel"
+            android:exported="false" />
+        <activity
+            android:name=".Pop_up"
+            android:exported="false" />
+        <activity
+            android:name=".activity_facilities_panel"
+            android:exported="false" />
+        <activity
             android:name=".Page_Booking_System"
             android:exported="false" />
         <activity
