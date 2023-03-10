@@ -12,10 +12,12 @@ public class Account {
 
 
     // Constructor
-    public Account(String username, String passwordHash, Integer roomId) {
+    public Account() {
+    }
+    public Account(String username, String passwordHash) {
         this.username = username;
         this.passwordHash = passwordHash;
-        this.roomId = roomId;
+        //this.roomId = roomId;
         bookedDryer = false;
         bookedWashingMachine = false;
 
@@ -25,8 +27,8 @@ public class Account {
         return username;
     }
 
-    public Integer getRoomId() {
-        return roomId;
+    public String getPasswordHash() {
+        return passwordHash;
     }
 
     public Boolean getBookedWashingMachine() {
