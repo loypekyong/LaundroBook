@@ -3,25 +3,22 @@ package com.example.laundrobook;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.*;
-
-import android.view.View;
+import android.view.*;
 import android.widget.*;
 
-public class TimingPanel extends AppCompatActivity {
+public class FacilitiesPanel extends AppCompatActivity {
 
-    Button W0700;
+    Button nextButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timing_panel);
-        W0700 = findViewById(R.id.W0700);
-        W0700.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_facilities_panel);
+        nextButton = findViewById(R.id.W1);
+        nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                View FacilitiesPanel = getLayoutInflater().inflate(R.layout.activity_facilities_panel, null);
-                setContentView(R.layout.activity_facilities_panel);
-            /*    // inflate the layout of the popup window
+                // inflate the layout of the popup window
                 LayoutInflater inflater = (LayoutInflater)
                         getSystemService(LAYOUT_INFLATER_SERVICE);
                 View popupView = inflater.inflate(R.layout.activity_pop_up, null);
@@ -33,8 +30,8 @@ public class TimingPanel extends AppCompatActivity {
                 final PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
 
                 // show the popup window
-                // which view you pass in doesn't matter, it is only used for the window tolken
-                popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);*/
+                // which view you pass in doesn't matter, it is only used for the window token
+                popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 
             }
         });

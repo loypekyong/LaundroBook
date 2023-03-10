@@ -18,7 +18,7 @@
             android:name=".Pop_up"
             android:exported="false" />
         <activity
-            android:name=".activity_facilities_panel"
+            android:name=".FacilitiesPanel"
             android:exported="false" />
         <activity
             android:name=".Page_Booking_System"
