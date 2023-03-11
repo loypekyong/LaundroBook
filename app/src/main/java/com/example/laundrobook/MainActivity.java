@@ -21,21 +21,16 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
-
-    //Test firebase code start
     TextView textViewMsg; // text view to display message
-    DatabaseReference mRootDatabaseRef; // root node
-
     ImageView charaImage; // character image
     Button loginButton; // login button
     Button registerButton; // register button
-
     EditText editTextUsername; // username
-
     EditText editTextPassword; // password
     String username; // username
     String password; // password
-
+    
+    DatabaseReference mRootDatabaseRef; // root node
     DatabaseReference mAccountRef; // reference to the account node
     @Override
     protected void onCreate(Bundle savedInstanceState) {
