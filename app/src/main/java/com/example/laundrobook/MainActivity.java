@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextPassword; // password
     String username; // username
     String password; // password
-    
+
     DatabaseReference mRootDatabaseRef; // root node
     DatabaseReference mAccountRef; // reference to the account node
     @Override

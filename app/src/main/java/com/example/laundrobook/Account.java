@@ -4,8 +4,7 @@ public class Account {
     private String username;    // username
     private Integer roomId;     // room id
     private String passwordHash;    // password
-    private Boolean bookedWashingMachine;
-    private Boolean bookedDryer;
+    Bookings bookings;  // bookings
 
 
     // Todo Hashing function if needed
@@ -18,8 +17,6 @@ public class Account {
         this.username = username;
         this.passwordHash = passwordHash;
         //this.roomId = roomId;
-        bookedDryer = false;
-        bookedWashingMachine = false;
 
     }
 
@@ -31,19 +28,5 @@ public class Account {
         return passwordHash;
     }
 
-    public Boolean getBookedWashingMachine() {
-        return bookedWashingMachine;
-    }
-
-    public void setBookedWashingMachine(Boolean bookedWashingMachine) {
-        this.bookedWashingMachine = bookedWashingMachine;
-    }
-
-    public Boolean getBookedDryer() {
-        return bookedDryer;
-    }
-
-    public void setBookedDryer(Boolean bookedDryer) {
-        this.bookedDryer = bookedDryer;
-    }
 }
+
